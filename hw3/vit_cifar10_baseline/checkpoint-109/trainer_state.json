@@ -1,0 +1,37 @@
+{
+  "best_metric": 0.16742911623640777,
+  "best_model_checkpoint": "./vit_cifar10_baseline/checkpoint-109",
+  "epoch": 1.0,
+  "eval_steps": 500,
+  "global_step": 109,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.92,
+      "learning_rate": 4.541284403669725e-05,
+      "loss": 1.9376,
+      "step": 100
+    },
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.2489,
+      "eval_f1_macro": 0.16742911623640777,
+      "eval_loss": 2.066152572631836,
+      "eval_runtime": 9.8493,
+      "eval_samples_per_second": 1015.304,
+      "eval_steps_per_second": 4.061,
+      "step": 109
+    }
+  ],
+  "logging_steps": 100,
+  "max_steps": 1090,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 10,
+  "save_steps": 500,
+  "total_flos": 1.6369602953711616e+16,
+  "train_batch_size": 256,
+  "trial_name": null,
+  "trial_params": null
+}
